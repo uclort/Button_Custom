@@ -137,20 +137,28 @@ class HmButton: UIControl {
     typealias Handler = (HmButton) -> Void
     /// 按下控件
     private var hm_touchDown: Handler?
+    
     /// 按下控件 在控件内部松手
     private var hm_touchUpInside: Handler?
+    
     /// 按下控件 在控件外部松手
     private var hm_touchUpOutside: Handler?
+    
     /// 重复按下控件
     private var hm_touchDownRepeat: Handler?
+    
     /// 手指首次触摸控件内部 在控件内部进行拖动
     private var hm_touchDragInside: Handler?
+    
     /// 手指首次触摸控件外部 在控件外部进行拖动
     private var hm_touchDragOutside: Handler?
+    
     /// 手指首次触摸控件外部 拖动到控件内部
     private var hm_touchDragEnter: Handler?
+    
     /// 手指首次触摸控件内部 拖动到控件外部
     private var hm_touchDragExit: Handler?
+    
     /// 所有触摸事件取消
     private var hm_touchCancel: Handler?
     
