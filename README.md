@@ -1,7 +1,7 @@
 # Button_Custom
 Swift 自定义 Button，多种图文布局，链式调用 Handler
 
-```
+```swift
 // 图片和标题 间距
 button.spacing = 10
 
